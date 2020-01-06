@@ -1,0 +1,12 @@
+{
+  "problemMatcher": [ {
+    "owner": "phpunit-failure",
+    "pattern": [{
+      "regexp": "##teamcity\\[testFailed.+message='([^']+)'.+details='\\s*([^:]+):(\\d+)[^']+'",
+      "file": 2,
+      "severity": 0,
+      "message": 1,
+      "line": 3
+    }]
+  }]
+}
