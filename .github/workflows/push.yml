@@ -11,6 +11,4 @@ jobs:
     - name: Configure matchers
       use: ./.github/actions/
     - name: Run Tests
-      run: |
-        echo "::add-matcher::.github/phpunit-problem-matcher.json"
-        ./vendor/bin/phpunit --teamcity test
+      run: ./vendor/bin/phpunit --teamcity test
