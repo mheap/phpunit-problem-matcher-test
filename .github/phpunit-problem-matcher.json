@@ -2,7 +2,7 @@
   "problemMatcher": [ {
     "owner": "phpunit-failure",
     "pattern": [{
-      "regexp": "##teamcity\\[testFailed.+message='([^']+)'.+details='([^:]+):(\\d+)[^']+'",
+      "regexp": "##teamcity\\[testFailed.+message='([^']+)'.+details='\\s+/home/runner/work/phpunit-problem-matcher-test/phpunit-problem-matcher-test/([^:]+):(\\d+)[^']+'",
       "file": 2,
       "severity": 0,
       "message": 1,
