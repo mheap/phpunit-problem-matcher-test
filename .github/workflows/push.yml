@@ -7,10 +7,9 @@ jobs:
     - uses: actions/checkout@v1
     - name: Composer dependencies
       run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
-    - run: echo "$GITHUB_WORKSPACE"
-    - name: Configure matcher root URL
-      run: sed -i "s#{{GITHUB_WORKSPACE}}#$GITHUB_WORKSPACE#" .github/phpunit-problem-matcher.json
-    - run: cat .github/phpunit-problem-matcher.json
+
+    - name: Configure matchers
+      use: ./.github/actions/
     - name: Run Tests
       run: |
         echo "::add-matcher::.github/phpunit-problem-matcher.json"
