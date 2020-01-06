@@ -9,6 +9,6 @@ jobs:
       run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
 
     - name: Configure matchers
-      use: ./.github/actions/
+      uses: ./.github/actions
     - name: Run Tests
       run: ./vendor/bin/phpunit --teamcity test
