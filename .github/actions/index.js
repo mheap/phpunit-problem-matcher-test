@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const matchers = {
   "phpunit-failure": {
       "regexp": "##teamcity\\[testFailed.+message='([^']+)'.+details='\\s+{{GITHUB_WORKSPACE}}/([^:]+):(\\d+)[^']+'",
