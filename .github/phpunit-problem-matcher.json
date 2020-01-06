@@ -1,11 +1,11 @@
 {
   "problemMatcher": [ {
     "owner": "phpunit-failure",
+    "severity": "error",
     "pattern": [{
-      "regexp": "##teamcity\\[testFailed.+message='([^']+)'.+details='\\s+/home/runner/work/phpunit-problem-matcher-test/phpunit-problem-matcher-test/([^:]+):(\\d+)[^']+'",
-      "file": 2,
-      "severity": 0,
+      "regexp": "^##teamcity\\[testFailed.+message='([^']+)'.+details='\\s+/home/runner/work/phpunit-problem-matcher-test/phpunit-problem-matcher-test/([^:]+):(\\d+)[^']+'.+$",
       "message": 1,
+      "file": 2,
       "line": 3
     }]
   }]
