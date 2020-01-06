@@ -4,7 +4,7 @@
     "fileLocation": ["absolute"],
     "severity": "error",
     "pattern": [{
-      "regexp": "^##teamcity\\[testFailed.+message='([^']+)'.+details='\\s+{{GITHUB_WORKSPACE}}([^:]+):(\\d+)[^']+'.+$",
+      "regexp": "^##teamcity\\[testFailed.+message='([^']+)'.+details='\\s+{{GITHUB_WORKSPACE}}/([^:]+):(\\d+)[^']+'.+$",
       "message": 1,
       "file": 2,
       "line": 3
