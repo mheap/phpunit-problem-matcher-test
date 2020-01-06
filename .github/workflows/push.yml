@@ -10,6 +10,7 @@ jobs:
     - run: echo "$GITHUB_WORKSPACE"
     - name: Configure matcher root URL
       run: sed -i "s#{{GITHUB_WORKSPACE}}#$GITHUB_WORKSPACE#" .github/phpunit-problem-matcher.json
+    - run: cat .github/phpunit-problem-matcher.json
     - name: Run Tests
       run: |
         echo "::add-matcher::.github/phpunit-problem-matcher.json"
