@@ -13,6 +13,6 @@ class StackTest extends TestCase
         $this->assertEquals(1, count($stack));
 
         $this->assertEquals('foo', array_pop($stack));
-        $this->assertEquals(1, count($stack));
+        $this->assertEquals(2, count($stack));
     }
 }
