@@ -1,13 +1,6 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/mheap/phpunit-github-actions-printer"
-        }
-    ],
     "require-dev": {
-        "mheap/phpunit-github-actions-printer": "master@dev",
-        "phpunit/phpunit": "^8"
-    },
-    "minimum-stability": "dev"
+        "phpunit/phpunit": "^8",
+        "mheap/phpunit-github-actions-printer": "^1.0"
+    }
 }
