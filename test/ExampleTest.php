@@ -15,4 +15,14 @@ class StackTest extends TestCase
         $this->assertEquals('foo', array_pop($stack));
         $this->assertEquals(1, count($stack));
     }
+
+    public function testNoAssertions()
+    {
+
+    }
+
+    public function testMissingMethod()
+    {
+        $this->isMissing();
+    }
 }
