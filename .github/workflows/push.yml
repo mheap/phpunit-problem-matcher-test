@@ -9,5 +9,4 @@ jobs:
       run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
     - name: Run Tests
       run: |
-        echo "::add-matcher::.github/phpunit-problem-matcher.json"
-        ./vendor/bin/phpunit --teamcity test
+        ./vendor/bin/phpunit --printer mheap\\GithubActionsReporter\\Printer test
