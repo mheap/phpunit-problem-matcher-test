@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "033b98a5f27581a0f71ba96898ae86a5",
+    "content-hash": "3c87b8e6f2f29e98329551aea90cf074",
     "packages": [],
     "packages-dev": [
         {
@@ -65,16 +65,16 @@
         },
         {
             "name": "mheap/phpunit-github-actions-printer",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mheap/phpunit-github-actions-printer.git",
-                "reference": "562faa8ca190918730ac03d0366cdd824508aeb5"
+                "reference": "eae94025ab8ff11bf0880bd4df92f99272a57b2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mheap/phpunit-github-actions-printer/zipball/562faa8ca190918730ac03d0366cdd824508aeb5",
-                "reference": "562faa8ca190918730ac03d0366cdd824508aeb5",
+                "url": "https://api.github.com/repos/mheap/phpunit-github-actions-printer/zipball/eae94025ab8ff11bf0880bd4df92f99272a57b2c",
+                "reference": "eae94025ab8ff11bf0880bd4df92f99272a57b2c",
                 "shasum": ""
             },
             "require-dev": {
@@ -97,7 +97,7 @@
                 }
             ],
             "description": "PHPUnit Printer for adding test failures as annotations on GitHub Actions",
-            "time": "2020-01-18T15:36:26+00:00"
+            "time": "2020-01-19T22:38:34+00:00"
         },
         {
             "name": "myclabs/deep-copy",

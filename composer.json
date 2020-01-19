@@ -1,6 +1,6 @@
 {
     "require-dev": {
         "phpunit/phpunit": "^8",
-        "mheap/phpunit-github-actions-printer": "^1.0"
+        "mheap/phpunit-github-actions-printer": "^1.1"
     }
 }
